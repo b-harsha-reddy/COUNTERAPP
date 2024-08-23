@@ -13,7 +13,7 @@ function createCounter(){
             return  count-=1;
         }
         else if(param==='reset'){
-            count=0;
+            return count=0;
         }
     }
     return counter;
