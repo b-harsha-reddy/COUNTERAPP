@@ -12,7 +12,7 @@ function createCounter(){
             }
             return  count-=1;
         }
-        else{
+        else if(param==='reset'){
             count=0;
         }
     }
@@ -28,4 +28,9 @@ function increment(){
 }
 function decrement(){
     document.getElementById("count").innerHTML = counter('decrement');
+}
+function reset(){
+    document.getElementById("count").innerHTML = counter('reset');
+
+
 }
