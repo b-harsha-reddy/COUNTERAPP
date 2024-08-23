@@ -1,0 +1,51 @@
+.counter-body{
+    text-align: center;
+    margin-top: 20%;
+  
+}
+#increment{
+  background-color:#736736; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#decrement{
+  background-color:#2B2A29; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#reset{
+  background-color: #E5B582;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+
+}
+#hr-row{
+    border-color: red;
+    width: 50%;
+    height: 5px;
+    background-color: red;
+    border-radius: 8px;
+}
+#count{
+    font-size: 60px;
+    color: gold;
+}
+
